@@ -5,18 +5,13 @@ public class App {
 
     public static void main(String[] args) {
 
-        int value;
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Insert integer number: ");
-        value = sc.nextInt();
+        System.out.println("Please insert two integers: ");
 
-        System.out.println("Absolute value of: " + value + " is: " + Matma.abs(value));
+        /*int p = sc.nextInt();
+        int w = sc.nextInt();*/
 
-        System.out.println("Insert floating point number: ");
-        float value2;
-        value2 = sc.nextFloat();
-
-        System.out.println("Absolute value of: " + value2 + " is: " + Matma.abs(value2));
+        System.out.println(Matma.pow(2, 6));
     }
 }
