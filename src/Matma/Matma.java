@@ -17,4 +17,16 @@ public class Matma {
             return -x;
         }
     }
+
+    public static int pow(int p, int w) {
+
+        if (w == 0) return 1;
+
+        int wynik = 1;
+
+        for (int i = 0; i < w; i++)
+            wynik *= p;
+
+        return wynik;
+    }
 }
