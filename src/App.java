@@ -9,9 +9,9 @@ public class App {
         Scanner sc = new Scanner(System.in);
         System.out.println("Please insert two integers: ");
 
-        /*int p = sc.nextInt();
-        int w = sc.nextInt();*/
+        int p = sc.nextInt();
+        int w = sc.nextInt();
 
-        System.out.println(Matma.pow(2, 6));
+        System.out.println(Matma.pow(p, w));
     }
 }
